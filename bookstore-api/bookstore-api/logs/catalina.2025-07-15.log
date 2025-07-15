@@ -1,0 +1,558 @@
+15-Jul-2025 16:18:00.240 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.9
+15-Jul-2025 16:18:00.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 1 2025 20:39:04 UTC
+15-Jul-2025 16:18:00.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.9.0
+15-Jul-2025 16:18:00.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+15-Jul-2025 16:18:00.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+15-Jul-2025 16:18:00.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+15-Jul-2025 16:18:00.245 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-21
+15-Jul-2025 16:18:00.245 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.5+9-LTS-239
+15-Jul-2025 16:18:00.245 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+15-Jul-2025 16:18:00.245 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\lokha\OneDrive\Desktop\bookstore-api\bookstore-api\bookstore-api
+15-Jul-2025 16:18:00.245 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 11.0
+15-Jul-2025 16:18:00.254 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+15-Jul-2025 16:18:00.254 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+15-Jul-2025 16:18:00.255 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+15-Jul-2025 16:18:00.255 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+15-Jul-2025 16:18:00.255 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+15-Jul-2025 16:18:00.255 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 11.0
+15-Jul-2025 16:18:00.255 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\lokha\OneDrive\Desktop\bookstore-api\bookstore-api\bookstore-api
+15-Jul-2025 16:18:00.255 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\lokha\OneDrive\Desktop\bookstore-api\bookstore-api\bookstore-api\temp
+15-Jul-2025 16:18:00.255 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\lokha\OneDrive\Desktop\bookstore-api\bookstore-api\bookstore-api\conf\logging.properties
+15-Jul-2025 16:18:00.255 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+15-Jul-2025 16:18:00.255 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2025.1.3\lib\idea_rt.jar=54628
+15-Jul-2025 16:18:00.255 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+15-Jul-2025 16:18:00.255 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+15-Jul-2025 16:18:00.255 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+15-Jul-2025 16:18:00.264 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\lokha\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\BraveSoftware\Brave-Browser\Application;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Apache Software Foundation\Tomcat 9.0\lib;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\platform-tools-latest-windows\platform-tools;C:\MinGW\bin;C:\Program Files\nodejs\;C:\Users\lokha\AppData\Local\Programs\Python\Launcher\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\lokha\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Apache Software Foundation\Tomcat 9.0\lib;C:\MinGW\bin;C:\Users\lokha\AppData\Roaming\npm;C:\Program Files (x86)\MongoDB Atlas CLI\;c:\Users\lokha\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\lokha\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Apache Software Foundation\Tomcat 9.0\lib;C:\MinGW\bin;C:\Users\lokha\AppData\Roaming\npm;C:\Users\lokha\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\MongoDB Atlas CLI\;C:\Users\lokha\AppData\Local\Programs\cursor\resources\app\bin;C:\Users\lokha\AppData\Local\Programs\mongosh\;C:\Program Files\MongoDB\mongosh-2.4.2-win32-x64\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2025.1.3\bin;;.]
+15-Jul-2025 16:18:00.540 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+15-Jul-2025 16:18:00.559 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [510] milliseconds
+15-Jul-2025 16:18:00.612 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+15-Jul-2025 16:18:00.612 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.9]
+15-Jul-2025 16:18:00.638 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\lokha\OneDrive\Desktop\bookstore-api\bookstore-api\bookstore-api\conf\Catalina\localhost\bookstore-api.xml]
+15-Jul-2025 16:18:03.825 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Jul-2025 16:18:05.005 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: default]
+15-Jul-2025 16:18:05.193 INFO [main] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 6.5.2.Final
+15-Jul-2025 16:18:05.295 INFO [main] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+15-Jul-2025 16:18:06.850 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+15-Jul-2025 16:18:06.854 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.logSelectedDialect HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+15-Jul-2025 16:18:09.190 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+15-Jul-2025 16:18:10.402 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\lokha\OneDrive\Desktop\bookstore-api\bookstore-api\bookstore-api\conf\Catalina\localhost\bookstore-api.xml] has finished in [9,764] ms
+15-Jul-2025 16:18:10.405 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+15-Jul-2025 16:18:10.420 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [9860] milliseconds
+15-Jul-2025 16:18:10.421 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.Net.bind(Net.java:554)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:636)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:391)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:278)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:532)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:849)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:797)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+15-Jul-2025 16:18:10.422 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+15-Jul-2025 16:18:10.425 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+15-Jul-2025 16:18:10.436 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [bookstore-api] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+15-Jul-2025 16:18:10.436 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [bookstore-api] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1852)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+15-Jul-2025 16:18:10.441 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+15-Jul-2025 16:18:10.451 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+15-Jul-2025 16:18:18.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.9
+15-Jul-2025 16:18:18.512 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 1 2025 20:39:04 UTC
+15-Jul-2025 16:18:18.512 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.9.0
+15-Jul-2025 16:18:18.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+15-Jul-2025 16:18:18.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+15-Jul-2025 16:18:18.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+15-Jul-2025 16:18:18.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-21
+15-Jul-2025 16:18:18.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.5+9-LTS-239
+15-Jul-2025 16:18:18.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+15-Jul-2025 16:18:18.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\lokha\OneDrive\Desktop\bookstore-api\bookstore-api\bookstore-api
+15-Jul-2025 16:18:18.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 11.0
+15-Jul-2025 16:18:18.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+15-Jul-2025 16:18:18.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+15-Jul-2025 16:18:18.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+15-Jul-2025 16:18:18.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+15-Jul-2025 16:18:18.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+15-Jul-2025 16:18:18.524 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 11.0
+15-Jul-2025 16:18:18.524 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\lokha\OneDrive\Desktop\bookstore-api\bookstore-api\bookstore-api
+15-Jul-2025 16:18:18.524 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\lokha\OneDrive\Desktop\bookstore-api\bookstore-api\bookstore-api\temp
+15-Jul-2025 16:18:18.524 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\lokha\OneDrive\Desktop\bookstore-api\bookstore-api\bookstore-api\conf\logging.properties
+15-Jul-2025 16:18:18.524 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+15-Jul-2025 16:18:18.524 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2025.1.3\lib\idea_rt.jar=54705
+15-Jul-2025 16:18:18.524 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+15-Jul-2025 16:18:18.524 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+15-Jul-2025 16:18:18.524 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+15-Jul-2025 16:18:18.533 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\lokha\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\BraveSoftware\Brave-Browser\Application;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Apache Software Foundation\Tomcat 9.0\lib;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\platform-tools-latest-windows\platform-tools;C:\MinGW\bin;C:\Program Files\nodejs\;C:\Users\lokha\AppData\Local\Programs\Python\Launcher\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\lokha\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Apache Software Foundation\Tomcat 9.0\lib;C:\MinGW\bin;C:\Users\lokha\AppData\Roaming\npm;C:\Program Files (x86)\MongoDB Atlas CLI\;c:\Users\lokha\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\lokha\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Apache Software Foundation\Tomcat 9.0\lib;C:\MinGW\bin;C:\Users\lokha\AppData\Roaming\npm;C:\Users\lokha\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\MongoDB Atlas CLI\;C:\Users\lokha\AppData\Local\Programs\cursor\resources\app\bin;C:\Users\lokha\AppData\Local\Programs\mongosh\;C:\Program Files\MongoDB\mongosh-2.4.2-win32-x64\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2025.1.3\bin;;.]
+15-Jul-2025 16:18:18.803 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+15-Jul-2025 16:18:18.818 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [450] milliseconds
+15-Jul-2025 16:18:18.854 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+15-Jul-2025 16:18:18.854 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.9]
+15-Jul-2025 16:18:18.864 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\lokha\OneDrive\Desktop\bookstore-api\bookstore-api\bookstore-api\conf\Catalina\localhost\bookstore-api.xml]
+15-Jul-2025 16:18:21.912 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Jul-2025 16:18:23.041 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: default]
+15-Jul-2025 16:18:23.233 INFO [main] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 6.5.2.Final
+15-Jul-2025 16:18:23.336 INFO [main] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+15-Jul-2025 16:18:24.742 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+15-Jul-2025 16:18:24.745 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.logSelectedDialect HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+15-Jul-2025 16:18:27.078 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+15-Jul-2025 16:18:28.239 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\lokha\OneDrive\Desktop\bookstore-api\bookstore-api\bookstore-api\conf\Catalina\localhost\bookstore-api.xml] has finished in [9,375] ms
+15-Jul-2025 16:18:28.241 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+15-Jul-2025 16:18:28.254 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [9435] milliseconds
+15-Jul-2025 16:18:28.254 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.Net.bind(Net.java:554)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:636)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:391)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:278)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:532)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:849)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:797)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+15-Jul-2025 16:18:28.256 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+15-Jul-2025 16:18:28.259 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+15-Jul-2025 16:18:28.267 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [bookstore-api] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+15-Jul-2025 16:18:28.268 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [bookstore-api] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1852)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+15-Jul-2025 16:18:28.271 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+15-Jul-2025 16:18:28.296 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+15-Jul-2025 16:19:19.498 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.9
+15-Jul-2025 16:19:19.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 1 2025 20:39:04 UTC
+15-Jul-2025 16:19:19.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.9.0
+15-Jul-2025 16:19:19.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+15-Jul-2025 16:19:19.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+15-Jul-2025 16:19:19.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+15-Jul-2025 16:19:19.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-21
+15-Jul-2025 16:19:19.504 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.5+9-LTS-239
+15-Jul-2025 16:19:19.504 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+15-Jul-2025 16:19:19.504 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\lokha\OneDrive\Desktop\bookstore-api\bookstore-api\bookstore-api
+15-Jul-2025 16:19:19.504 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 11.0
+15-Jul-2025 16:19:19.514 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+15-Jul-2025 16:19:19.514 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+15-Jul-2025 16:19:19.514 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+15-Jul-2025 16:19:19.514 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+15-Jul-2025 16:19:19.514 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+15-Jul-2025 16:19:19.514 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 11.0
+15-Jul-2025 16:19:19.514 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\lokha\OneDrive\Desktop\bookstore-api\bookstore-api\bookstore-api
+15-Jul-2025 16:19:19.514 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\lokha\OneDrive\Desktop\bookstore-api\bookstore-api\bookstore-api\temp
+15-Jul-2025 16:19:19.515 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\lokha\OneDrive\Desktop\bookstore-api\bookstore-api\bookstore-api\conf\logging.properties
+15-Jul-2025 16:19:19.515 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+15-Jul-2025 16:19:19.515 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2025.1.3\lib\idea_rt.jar=54960
+15-Jul-2025 16:19:19.515 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+15-Jul-2025 16:19:19.515 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+15-Jul-2025 16:19:19.515 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+15-Jul-2025 16:19:19.525 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\lokha\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\BraveSoftware\Brave-Browser\Application;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Apache Software Foundation\Tomcat 9.0\lib;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\platform-tools-latest-windows\platform-tools;C:\MinGW\bin;C:\Program Files\nodejs\;C:\Users\lokha\AppData\Local\Programs\Python\Launcher\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\lokha\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Apache Software Foundation\Tomcat 9.0\lib;C:\MinGW\bin;C:\Users\lokha\AppData\Roaming\npm;C:\Program Files (x86)\MongoDB Atlas CLI\;c:\Users\lokha\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\lokha\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Apache Software Foundation\Tomcat 9.0\lib;C:\MinGW\bin;C:\Users\lokha\AppData\Roaming\npm;C:\Users\lokha\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\MongoDB Atlas CLI\;C:\Users\lokha\AppData\Local\Programs\cursor\resources\app\bin;C:\Users\lokha\AppData\Local\Programs\mongosh\;C:\Program Files\MongoDB\mongosh-2.4.2-win32-x64\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2025.1.3\bin;;.]
+15-Jul-2025 16:19:19.815 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+15-Jul-2025 16:19:19.833 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [487] milliseconds
+15-Jul-2025 16:19:19.869 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+15-Jul-2025 16:19:19.869 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.9]
+15-Jul-2025 16:19:19.879 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\lokha\OneDrive\Desktop\bookstore-api\bookstore-api\bookstore-api\conf\Catalina\localhost\bookstore-api.xml]
+15-Jul-2025 16:19:22.874 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Jul-2025 16:19:24.007 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: default]
+15-Jul-2025 16:19:24.199 INFO [main] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 6.5.2.Final
+15-Jul-2025 16:19:24.303 INFO [main] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+15-Jul-2025 16:19:25.717 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+15-Jul-2025 16:19:25.721 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.logSelectedDialect HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+15-Jul-2025 16:19:28.075 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+15-Jul-2025 16:19:29.325 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\lokha\OneDrive\Desktop\bookstore-api\bookstore-api\bookstore-api\conf\Catalina\localhost\bookstore-api.xml] has finished in [9,446] ms
+15-Jul-2025 16:19:29.330 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+15-Jul-2025 16:19:29.342 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [9508] milliseconds
+15-Jul-2025 16:19:29.342 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.Net.bind(Net.java:554)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:636)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:391)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:278)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:532)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:849)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:797)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+15-Jul-2025 16:19:29.343 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+15-Jul-2025 16:19:29.346 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+15-Jul-2025 16:19:29.356 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [bookstore-api] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+15-Jul-2025 16:19:29.356 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [bookstore-api] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1852)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+15-Jul-2025 16:19:29.361 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+15-Jul-2025 16:19:29.375 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+15-Jul-2025 16:21:00.306 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.9
+15-Jul-2025 16:21:00.311 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 1 2025 20:39:04 UTC
+15-Jul-2025 16:21:00.311 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.9.0
+15-Jul-2025 16:21:00.311 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+15-Jul-2025 16:21:00.311 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+15-Jul-2025 16:21:00.311 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+15-Jul-2025 16:21:00.311 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-21
+15-Jul-2025 16:21:00.311 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.5+9-LTS-239
+15-Jul-2025 16:21:00.311 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+15-Jul-2025 16:21:00.311 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\lokha\OneDrive\Desktop\bookstore-api\bookstore-api\bookstore-api
+15-Jul-2025 16:21:00.312 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 11.0
+15-Jul-2025 16:21:00.320 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+15-Jul-2025 16:21:00.320 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+15-Jul-2025 16:21:00.320 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+15-Jul-2025 16:21:00.320 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+15-Jul-2025 16:21:00.320 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+15-Jul-2025 16:21:00.320 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 11.0
+15-Jul-2025 16:21:00.320 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\lokha\OneDrive\Desktop\bookstore-api\bookstore-api\bookstore-api
+15-Jul-2025 16:21:00.320 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\lokha\OneDrive\Desktop\bookstore-api\bookstore-api\bookstore-api\temp
+15-Jul-2025 16:21:00.320 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\lokha\OneDrive\Desktop\bookstore-api\bookstore-api\bookstore-api\conf\logging.properties
+15-Jul-2025 16:21:00.320 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+15-Jul-2025 16:21:00.320 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2025.1.3\lib\idea_rt.jar=55375
+15-Jul-2025 16:21:00.321 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+15-Jul-2025 16:21:00.321 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+15-Jul-2025 16:21:00.321 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+15-Jul-2025 16:21:00.330 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\lokha\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\BraveSoftware\Brave-Browser\Application;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Apache Software Foundation\Tomcat 9.0\lib;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\platform-tools-latest-windows\platform-tools;C:\MinGW\bin;C:\Program Files\nodejs\;C:\Users\lokha\AppData\Local\Programs\Python\Launcher\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\lokha\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Apache Software Foundation\Tomcat 9.0\lib;C:\MinGW\bin;C:\Users\lokha\AppData\Roaming\npm;C:\Program Files (x86)\MongoDB Atlas CLI\;c:\Users\lokha\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\lokha\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Apache Software Foundation\Tomcat 9.0\lib;C:\MinGW\bin;C:\Users\lokha\AppData\Roaming\npm;C:\Users\lokha\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\MongoDB Atlas CLI\;C:\Users\lokha\AppData\Local\Programs\cursor\resources\app\bin;C:\Users\lokha\AppData\Local\Programs\mongosh\;C:\Program Files\MongoDB\mongosh-2.4.2-win32-x64\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2025.1.3\bin;;.]
+15-Jul-2025 16:21:00.571 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+15-Jul-2025 16:21:00.588 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [418] milliseconds
+15-Jul-2025 16:21:00.626 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+15-Jul-2025 16:21:00.627 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.9]
+15-Jul-2025 16:21:00.636 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\lokha\OneDrive\Desktop\bookstore-api\bookstore-api\bookstore-api\conf\Catalina\localhost\bookstore-api.xml]
+15-Jul-2025 16:21:03.703 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Jul-2025 16:21:04.831 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: default]
+15-Jul-2025 16:21:05.025 INFO [main] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 6.5.2.Final
+15-Jul-2025 16:21:05.124 INFO [main] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+15-Jul-2025 16:21:06.542 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+15-Jul-2025 16:21:06.545 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.logSelectedDialect HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+15-Jul-2025 16:21:08.887 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+15-Jul-2025 16:21:10.079 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\lokha\OneDrive\Desktop\bookstore-api\bookstore-api\bookstore-api\conf\Catalina\localhost\bookstore-api.xml] has finished in [9,443] ms
+15-Jul-2025 16:21:10.082 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+15-Jul-2025 16:21:10.096 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [9506] milliseconds
+15-Jul-2025 16:27:24.648 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+15-Jul-2025 16:27:24.656 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+15-Jul-2025 16:27:24.705 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [bookstore-api] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+15-Jul-2025 16:27:24.706 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [bookstore-api] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1852)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+15-Jul-2025 16:27:24.717 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+15-Jul-2025 16:27:24.723 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+15-Jul-2025 16:27:27.496 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.9
+15-Jul-2025 16:27:27.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 1 2025 20:39:04 UTC
+15-Jul-2025 16:27:27.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.9.0
+15-Jul-2025 16:27:27.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+15-Jul-2025 16:27:27.502 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+15-Jul-2025 16:27:27.502 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+15-Jul-2025 16:27:27.502 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-21
+15-Jul-2025 16:27:27.502 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.5+9-LTS-239
+15-Jul-2025 16:27:27.502 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+15-Jul-2025 16:27:27.502 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\lokha\OneDrive\Desktop\bookstore-api\bookstore-api\bookstore-api
+15-Jul-2025 16:27:27.502 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 11.0
+15-Jul-2025 16:27:27.515 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+15-Jul-2025 16:27:27.515 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+15-Jul-2025 16:27:27.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+15-Jul-2025 16:27:27.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+15-Jul-2025 16:27:27.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+15-Jul-2025 16:27:27.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 11.0
+15-Jul-2025 16:27:27.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\lokha\OneDrive\Desktop\bookstore-api\bookstore-api\bookstore-api
+15-Jul-2025 16:27:27.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\lokha\OneDrive\Desktop\bookstore-api\bookstore-api\bookstore-api\temp
+15-Jul-2025 16:27:27.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\lokha\OneDrive\Desktop\bookstore-api\bookstore-api\bookstore-api\conf\logging.properties
+15-Jul-2025 16:27:27.517 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+15-Jul-2025 16:27:27.517 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2025.1.3\lib\idea_rt.jar=57135
+15-Jul-2025 16:27:27.517 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+15-Jul-2025 16:27:27.517 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+15-Jul-2025 16:27:27.517 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+15-Jul-2025 16:27:27.534 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\lokha\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\BraveSoftware\Brave-Browser\Application;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Apache Software Foundation\Tomcat 9.0\lib;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\platform-tools-latest-windows\platform-tools;C:\MinGW\bin;C:\Program Files\nodejs\;C:\Users\lokha\AppData\Local\Programs\Python\Launcher\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\lokha\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Apache Software Foundation\Tomcat 9.0\lib;C:\MinGW\bin;C:\Users\lokha\AppData\Roaming\npm;C:\Program Files (x86)\MongoDB Atlas CLI\;c:\Users\lokha\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\lokha\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Apache Software Foundation\Tomcat 9.0\lib;C:\MinGW\bin;C:\Users\lokha\AppData\Roaming\npm;C:\Users\lokha\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\MongoDB Atlas CLI\;C:\Users\lokha\AppData\Local\Programs\cursor\resources\app\bin;C:\Users\lokha\AppData\Local\Programs\mongosh\;C:\Program Files\MongoDB\mongosh-2.4.2-win32-x64\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2025.1.3\bin;;.]
+15-Jul-2025 16:27:27.896 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+15-Jul-2025 16:27:27.919 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [630] milliseconds
+15-Jul-2025 16:27:27.971 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+15-Jul-2025 16:27:27.972 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.9]
+15-Jul-2025 16:27:27.984 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\lokha\OneDrive\Desktop\bookstore-api\bookstore-api\bookstore-api\conf\Catalina\localhost\bookstore-api.xml]
+15-Jul-2025 16:27:31.690 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Jul-2025 16:27:32.958 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: default]
+15-Jul-2025 16:27:33.203 INFO [main] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 6.5.2.Final
+15-Jul-2025 16:27:33.343 INFO [main] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+15-Jul-2025 16:27:35.052 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+15-Jul-2025 16:27:35.057 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.logSelectedDialect HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+15-Jul-2025 16:27:37.700 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+15-Jul-2025 16:27:38.913 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\lokha\OneDrive\Desktop\bookstore-api\bookstore-api\bookstore-api\conf\Catalina\localhost\bookstore-api.xml] has finished in [10,928] ms
+15-Jul-2025 16:27:38.917 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+15-Jul-2025 16:27:38.929 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [11009] milliseconds
+15-Jul-2025 16:44:33.732 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+15-Jul-2025 16:44:33.737 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+15-Jul-2025 16:44:33.776 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [bookstore-api] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+15-Jul-2025 16:44:33.776 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [bookstore-api] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1852)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+15-Jul-2025 16:44:33.786 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+15-Jul-2025 16:44:33.791 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+15-Jul-2025 16:44:35.792 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.9
+15-Jul-2025 16:44:35.794 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 1 2025 20:39:04 UTC
+15-Jul-2025 16:44:35.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.9.0
+15-Jul-2025 16:44:35.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+15-Jul-2025 16:44:35.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+15-Jul-2025 16:44:35.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+15-Jul-2025 16:44:35.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-21
+15-Jul-2025 16:44:35.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.5+9-LTS-239
+15-Jul-2025 16:44:35.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+15-Jul-2025 16:44:35.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\lokha\OneDrive\Desktop\bookstore-api\bookstore-api\bookstore-api
+15-Jul-2025 16:44:35.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 11.0
+15-Jul-2025 16:44:35.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+15-Jul-2025 16:44:35.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+15-Jul-2025 16:44:35.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+15-Jul-2025 16:44:35.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+15-Jul-2025 16:44:35.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+15-Jul-2025 16:44:35.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 11.0
+15-Jul-2025 16:44:35.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\lokha\OneDrive\Desktop\bookstore-api\bookstore-api\bookstore-api
+15-Jul-2025 16:44:35.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\lokha\OneDrive\Desktop\bookstore-api\bookstore-api\bookstore-api\temp
+15-Jul-2025 16:44:35.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\lokha\OneDrive\Desktop\bookstore-api\bookstore-api\bookstore-api\conf\logging.properties
+15-Jul-2025 16:44:35.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+15-Jul-2025 16:44:35.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2025.1.3\lib\idea_rt.jar=61956
+15-Jul-2025 16:44:35.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+15-Jul-2025 16:44:35.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+15-Jul-2025 16:44:35.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+15-Jul-2025 16:44:35.822 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\lokha\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\BraveSoftware\Brave-Browser\Application;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Apache Software Foundation\Tomcat 9.0\lib;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\platform-tools-latest-windows\platform-tools;C:\MinGW\bin;C:\Program Files\nodejs\;C:\Users\lokha\AppData\Local\Programs\Python\Launcher\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\lokha\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Apache Software Foundation\Tomcat 9.0\lib;C:\MinGW\bin;C:\Users\lokha\AppData\Roaming\npm;C:\Program Files (x86)\MongoDB Atlas CLI\;c:\Users\lokha\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\lokha\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Apache Software Foundation\Tomcat 9.0\lib;C:\MinGW\bin;C:\Users\lokha\AppData\Roaming\npm;C:\Users\lokha\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\MongoDB Atlas CLI\;C:\Users\lokha\AppData\Local\Programs\cursor\resources\app\bin;C:\Users\lokha\AppData\Local\Programs\mongosh\;C:\Program Files\MongoDB\mongosh-2.4.2-win32-x64\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2025.1.3\bin;;.]
+15-Jul-2025 16:44:36.102 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+15-Jul-2025 16:44:36.121 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [560] milliseconds
+15-Jul-2025 16:44:36.163 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+15-Jul-2025 16:44:36.163 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.9]
+15-Jul-2025 16:44:36.174 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\lokha\OneDrive\Desktop\bookstore-api\bookstore-api\bookstore-api\conf\Catalina\localhost\bookstore-api.xml]
+15-Jul-2025 16:44:39.459 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Jul-2025 16:44:40.641 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: default]
+15-Jul-2025 16:44:40.854 INFO [main] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 6.5.2.Final
+15-Jul-2025 16:44:40.961 INFO [main] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+15-Jul-2025 16:44:42.524 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+15-Jul-2025 16:44:42.528 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.logSelectedDialect HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+15-Jul-2025 16:44:45.072 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+15-Jul-2025 16:44:46.342 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\lokha\OneDrive\Desktop\bookstore-api\bookstore-api\bookstore-api\conf\Catalina\localhost\bookstore-api.xml] has finished in [10,168] ms
+15-Jul-2025 16:44:46.345 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+15-Jul-2025 16:44:46.359 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [10236] milliseconds
+15-Jul-2025 16:49:28.633 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+15-Jul-2025 16:49:28.637 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+15-Jul-2025 16:49:28.647 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [bookstore-api] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+15-Jul-2025 16:49:28.647 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [bookstore-api] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1852)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+15-Jul-2025 16:49:28.652 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+15-Jul-2025 16:49:28.666 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+15-Jul-2025 16:49:29.956 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.9
+15-Jul-2025 16:49:29.960 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 1 2025 20:39:04 UTC
+15-Jul-2025 16:49:29.960 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.9.0
+15-Jul-2025 16:49:29.960 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+15-Jul-2025 16:49:29.960 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+15-Jul-2025 16:49:29.960 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+15-Jul-2025 16:49:29.960 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-21
+15-Jul-2025 16:49:29.960 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.5+9-LTS-239
+15-Jul-2025 16:49:29.960 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+15-Jul-2025 16:49:29.960 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\lokha\OneDrive\Desktop\bookstore-api\bookstore-api\bookstore-api
+15-Jul-2025 16:49:29.962 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 11.0
+15-Jul-2025 16:49:29.970 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+15-Jul-2025 16:49:29.970 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+15-Jul-2025 16:49:29.970 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+15-Jul-2025 16:49:29.970 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+15-Jul-2025 16:49:29.970 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+15-Jul-2025 16:49:29.970 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 11.0
+15-Jul-2025 16:49:29.970 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\lokha\OneDrive\Desktop\bookstore-api\bookstore-api\bookstore-api
+15-Jul-2025 16:49:29.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\lokha\OneDrive\Desktop\bookstore-api\bookstore-api\bookstore-api\temp
+15-Jul-2025 16:49:29.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\lokha\OneDrive\Desktop\bookstore-api\bookstore-api\bookstore-api\conf\logging.properties
+15-Jul-2025 16:49:29.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+15-Jul-2025 16:49:29.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2025.1.3\lib\idea_rt.jar=63367
+15-Jul-2025 16:49:29.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+15-Jul-2025 16:49:29.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+15-Jul-2025 16:49:29.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+15-Jul-2025 16:49:29.982 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\lokha\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\BraveSoftware\Brave-Browser\Application;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Apache Software Foundation\Tomcat 9.0\lib;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\platform-tools-latest-windows\platform-tools;C:\MinGW\bin;C:\Program Files\nodejs\;C:\Users\lokha\AppData\Local\Programs\Python\Launcher\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\lokha\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Apache Software Foundation\Tomcat 9.0\lib;C:\MinGW\bin;C:\Users\lokha\AppData\Roaming\npm;C:\Program Files (x86)\MongoDB Atlas CLI\;c:\Users\lokha\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\lokha\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Apache Software Foundation\Tomcat 9.0\lib;C:\MinGW\bin;C:\Users\lokha\AppData\Roaming\npm;C:\Users\lokha\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\MongoDB Atlas CLI\;C:\Users\lokha\AppData\Local\Programs\cursor\resources\app\bin;C:\Users\lokha\AppData\Local\Programs\mongosh\;C:\Program Files\MongoDB\mongosh-2.4.2-win32-x64\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2025.1.3\bin;;.]
+15-Jul-2025 16:49:30.338 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+15-Jul-2025 16:49:30.361 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [582] milliseconds
+15-Jul-2025 16:49:30.411 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+15-Jul-2025 16:49:30.411 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.9]
+15-Jul-2025 16:49:30.420 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\lokha\OneDrive\Desktop\bookstore-api\bookstore-api\bookstore-api\conf\Catalina\localhost\bookstore-api.xml]
+15-Jul-2025 16:49:33.606 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Jul-2025 16:49:34.787 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: default]
+15-Jul-2025 16:49:35.006 INFO [main] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 6.5.2.Final
+15-Jul-2025 16:49:35.115 INFO [main] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+15-Jul-2025 16:49:36.659 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+15-Jul-2025 16:49:36.664 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.logSelectedDialect HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+15-Jul-2025 16:49:39.257 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+15-Jul-2025 16:49:40.600 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\lokha\OneDrive\Desktop\bookstore-api\bookstore-api\bookstore-api\conf\Catalina\localhost\bookstore-api.xml] has finished in [10,180] ms
+15-Jul-2025 16:49:40.604 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+15-Jul-2025 16:49:40.617 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [10253] milliseconds
+15-Jul-2025 16:57:10.257 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+15-Jul-2025 16:57:10.260 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+15-Jul-2025 16:57:10.278 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [bookstore-api] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+15-Jul-2025 16:57:10.278 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [bookstore-api] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1852)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+15-Jul-2025 16:57:10.287 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+15-Jul-2025 16:57:10.295 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+15-Jul-2025 16:57:11.754 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.9
+15-Jul-2025 16:57:11.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 1 2025 20:39:04 UTC
+15-Jul-2025 16:57:11.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.9.0
+15-Jul-2025 16:57:11.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+15-Jul-2025 16:57:11.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+15-Jul-2025 16:57:11.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+15-Jul-2025 16:57:11.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-21
+15-Jul-2025 16:57:11.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.5+9-LTS-239
+15-Jul-2025 16:57:11.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+15-Jul-2025 16:57:11.761 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\lokha\OneDrive\Desktop\bookstore-api\bookstore-api\bookstore-api
+15-Jul-2025 16:57:11.761 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 11.0
+15-Jul-2025 16:57:11.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+15-Jul-2025 16:57:11.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+15-Jul-2025 16:57:11.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+15-Jul-2025 16:57:11.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+15-Jul-2025 16:57:11.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+15-Jul-2025 16:57:11.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 11.0
+15-Jul-2025 16:57:11.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\lokha\OneDrive\Desktop\bookstore-api\bookstore-api\bookstore-api
+15-Jul-2025 16:57:11.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\lokha\OneDrive\Desktop\bookstore-api\bookstore-api\bookstore-api\temp
+15-Jul-2025 16:57:11.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\lokha\OneDrive\Desktop\bookstore-api\bookstore-api\bookstore-api\conf\logging.properties
+15-Jul-2025 16:57:11.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+15-Jul-2025 16:57:11.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2025.1.3\lib\idea_rt.jar=49274
+15-Jul-2025 16:57:11.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+15-Jul-2025 16:57:11.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+15-Jul-2025 16:57:11.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+15-Jul-2025 16:57:11.799 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\lokha\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\BraveSoftware\Brave-Browser\Application;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Apache Software Foundation\Tomcat 9.0\lib;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\platform-tools-latest-windows\platform-tools;C:\MinGW\bin;C:\Program Files\nodejs\;C:\Users\lokha\AppData\Local\Programs\Python\Launcher\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\lokha\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Apache Software Foundation\Tomcat 9.0\lib;C:\MinGW\bin;C:\Users\lokha\AppData\Roaming\npm;C:\Program Files (x86)\MongoDB Atlas CLI\;c:\Users\lokha\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\lokha\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Apache Software Foundation\Tomcat 9.0\lib;C:\MinGW\bin;C:\Users\lokha\AppData\Roaming\npm;C:\Users\lokha\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\MongoDB Atlas CLI\;C:\Users\lokha\AppData\Local\Programs\cursor\resources\app\bin;C:\Users\lokha\AppData\Local\Programs\mongosh\;C:\Program Files\MongoDB\mongosh-2.4.2-win32-x64\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2025.1.3\bin;;.]
+15-Jul-2025 16:57:12.114 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+15-Jul-2025 16:57:12.131 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [536] milliseconds
+15-Jul-2025 16:57:12.177 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+15-Jul-2025 16:57:12.177 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.9]
+15-Jul-2025 16:57:12.188 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\lokha\OneDrive\Desktop\bookstore-api\bookstore-api\bookstore-api\conf\Catalina\localhost\bookstore-api.xml]
+15-Jul-2025 16:57:15.434 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Jul-2025 16:57:16.645 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: default]
+15-Jul-2025 16:57:16.870 INFO [main] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 6.5.2.Final
+15-Jul-2025 16:57:16.984 INFO [main] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+15-Jul-2025 16:57:18.495 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+15-Jul-2025 16:57:18.497 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.logSelectedDialect HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+15-Jul-2025 16:57:21.032 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+15-Jul-2025 16:57:22.391 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\lokha\OneDrive\Desktop\bookstore-api\bookstore-api\bookstore-api\conf\Catalina\localhost\bookstore-api.xml] has finished in [10,204] ms
+15-Jul-2025 16:57:22.395 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+15-Jul-2025 16:57:22.408 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [10276] milliseconds
+15-Jul-2025 17:13:39.666 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+15-Jul-2025 17:13:39.669 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+15-Jul-2025 17:13:39.679 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [bookstore-api] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+15-Jul-2025 17:13:39.679 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [bookstore-api] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1852)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+15-Jul-2025 17:13:39.686 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+15-Jul-2025 17:13:39.707 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+15-Jul-2025 17:13:41.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.9
+15-Jul-2025 17:13:41.811 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 1 2025 20:39:04 UTC
+15-Jul-2025 17:13:41.811 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.9.0
+15-Jul-2025 17:13:41.811 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+15-Jul-2025 17:13:41.811 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+15-Jul-2025 17:13:41.811 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+15-Jul-2025 17:13:41.811 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-21
+15-Jul-2025 17:13:41.811 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.5+9-LTS-239
+15-Jul-2025 17:13:41.812 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+15-Jul-2025 17:13:41.812 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\lokha\OneDrive\Desktop\bookstore-api\bookstore-api\bookstore-api
+15-Jul-2025 17:13:41.812 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 11.0
+15-Jul-2025 17:13:41.820 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+15-Jul-2025 17:13:41.820 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+15-Jul-2025 17:13:41.820 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+15-Jul-2025 17:13:41.820 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+15-Jul-2025 17:13:41.820 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+15-Jul-2025 17:13:41.820 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 11.0
+15-Jul-2025 17:13:41.820 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\lokha\OneDrive\Desktop\bookstore-api\bookstore-api\bookstore-api
+15-Jul-2025 17:13:41.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\lokha\OneDrive\Desktop\bookstore-api\bookstore-api\bookstore-api\temp
+15-Jul-2025 17:13:41.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\lokha\OneDrive\Desktop\bookstore-api\bookstore-api\bookstore-api\conf\logging.properties
+15-Jul-2025 17:13:41.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+15-Jul-2025 17:13:41.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2025.1.3\lib\idea_rt.jar=54044
+15-Jul-2025 17:13:41.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+15-Jul-2025 17:13:41.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+15-Jul-2025 17:13:41.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+15-Jul-2025 17:13:41.831 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\lokha\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\BraveSoftware\Brave-Browser\Application;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Apache Software Foundation\Tomcat 9.0\lib;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\platform-tools-latest-windows\platform-tools;C:\MinGW\bin;C:\Program Files\nodejs\;C:\Users\lokha\AppData\Local\Programs\Python\Launcher\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\lokha\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Apache Software Foundation\Tomcat 9.0\lib;C:\MinGW\bin;C:\Users\lokha\AppData\Roaming\npm;C:\Program Files (x86)\MongoDB Atlas CLI\;c:\Users\lokha\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\lokha\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Apache Software Foundation\Tomcat 9.0\lib;C:\MinGW\bin;C:\Users\lokha\AppData\Roaming\npm;C:\Users\lokha\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\MongoDB Atlas CLI\;C:\Users\lokha\AppData\Local\Programs\cursor\resources\app\bin;C:\Users\lokha\AppData\Local\Programs\mongosh\;C:\Program Files\MongoDB\mongosh-2.4.2-win32-x64\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2025.1.3\bin;;.]
+15-Jul-2025 17:13:42.118 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+15-Jul-2025 17:13:42.135 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [481] milliseconds
+15-Jul-2025 17:13:42.176 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+15-Jul-2025 17:13:42.176 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.9]
+15-Jul-2025 17:13:42.187 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\lokha\OneDrive\Desktop\bookstore-api\bookstore-api\bookstore-api\conf\Catalina\localhost\bookstore-api.xml]
+15-Jul-2025 17:13:45.508 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Jul-2025 17:13:46.697 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: default]
+15-Jul-2025 17:13:46.911 INFO [main] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 6.5.2.Final
+15-Jul-2025 17:13:47.019 INFO [main] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+15-Jul-2025 17:13:48.554 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+15-Jul-2025 17:13:48.558 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.logSelectedDialect HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+15-Jul-2025 17:13:51.039 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+15-Jul-2025 17:13:52.310 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\lokha\OneDrive\Desktop\bookstore-api\bookstore-api\bookstore-api\conf\Catalina\localhost\bookstore-api.xml] has finished in [10,123] ms
+15-Jul-2025 17:13:52.313 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+15-Jul-2025 17:13:52.328 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [10192] milliseconds
+15-Jul-2025 17:18:05.317 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+15-Jul-2025 17:18:05.320 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+15-Jul-2025 17:18:05.328 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [bookstore-api] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+15-Jul-2025 17:18:05.328 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [bookstore-api] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1852)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+15-Jul-2025 17:18:05.333 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+15-Jul-2025 17:18:05.355 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
